@@ -1,0 +1,12 @@
+#numbers {
+    background: gray;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    width: max-content;
+  }
+  
+  button {
+    padding: 5px 20px 5px 20px;
+  }
+    

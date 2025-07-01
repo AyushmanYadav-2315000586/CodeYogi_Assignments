@@ -1,0 +1,51 @@
+.pad-5 {
+  padding: 20px;
+}
+.flex {
+  display: flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.space-x-2 > *:not(:last-child) {
+  margin-right: 8px;
+}
+.card {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  max-width: 320px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 20px 8px;
+}
+
+.desc {
+  color: #6b7280;
+  margin: 0 0.5rem 0.75rem;
+}
+
+.grow {
+  flex-grow: 1;
+}
+.btn {
+  background-color: #6b7280;
+  padding: 0.5rem 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  align-self: center;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}

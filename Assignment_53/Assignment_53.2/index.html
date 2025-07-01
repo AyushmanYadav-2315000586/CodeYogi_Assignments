@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Card</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body class="flex justify-center items-center min-h-screen p-4 bg-gray-200">
+    
+    <div class="flex flex-col lg:flex-row bg-white rounded-2xl shadow-lg overflow-hidden w-full max-w-6xl">
+
+      <div class="flex flex-col justify-center px-6 py-10 lg:w-1/2 bg-gray-200 space-y-6 text-center lg:text-left">
+        <h1 class="font-bold text-3xl sm:text-4xl">
+          Data to enrich your <br />
+          <span class="text-purple-700 block">online business</span>
+        </h1>
+        <p class="text-gray-600 text-base sm:text-sm max-w-lg md:text-base mx-auto lg:mx-0">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-3 w-full sm:justify-center lg:justify-start">
+          <button class="w-full sm:w-auto px-6 py-3 sm:px-4 sm:py-2 sm:text-xs md:text-sm bg-purple-700 text-white font-semibold rounded-md hover:bg-purple-800 transition">
+            Get started
+          </button>
+          <button class="w-full sm:w-auto px-6 py-3 sm:px-4 sm:py-2 sm:text-xs md:text-sm bg-white text-purple-700 font-medium rounded-md hover:bg-gray-100 transition border border-purple-200">
+            Live demo
+          </button>
+        </div>
+      </div>
+
+      <div class="lg:w-1/2">
+        <img
+          class="w-full h-full object-cover"
+          src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80"
+          alt="Working woman"
+        />
+      </div>
+    </div>
+
+  </body>
+</html>

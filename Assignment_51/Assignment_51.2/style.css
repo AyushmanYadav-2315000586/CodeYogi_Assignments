@@ -1,0 +1,28 @@
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.bg-green {
+  background: green;
+}
+
+.p-2 {
+  padding: 20px;
+}
+
+.h-70 {
+  height: 70vh;
+}
+
+.border-dark {
+  border: 14px solid black;
+}
+
+.border-dash {
+  border: 4px dashed black;
+}
+
+.text-xl {
+  font-size: 30px;
+}
