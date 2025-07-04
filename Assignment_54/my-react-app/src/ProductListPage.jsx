@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar.jsx";
-import Main from "./main.jsx";
+import Main from "./Main.jsx";
 import Footer from "./Footer.jsx";
 export default function ProductListPage() {
   return (
