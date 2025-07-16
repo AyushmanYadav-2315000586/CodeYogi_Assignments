@@ -1,5 +1,4 @@
 import React from "react";
-import FormikHOC from "./FormikHOC";
 
 function Input({ name, label, id, className, touched, error, ...rest }) {
   let borderClass = "focus:ring-4 focus:ring-yellow-500";
@@ -27,7 +26,5 @@ function Input({ name, label, id, className, touched, error, ...rest }) {
     </div>
   );
 }
-
-export const FormikInput = FormikHOC(Input);
 
 export default Input;

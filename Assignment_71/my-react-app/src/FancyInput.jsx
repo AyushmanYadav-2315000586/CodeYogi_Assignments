@@ -1,5 +1,4 @@
 import React from "react";
-import FormikHOC from "./FormikHOC";
 
 function FancyInput({ name, label, id, className, touched, error, ...rest }) {
   let borderClass =
@@ -28,7 +27,5 @@ function FancyInput({ name, label, id, className, touched, error, ...rest }) {
     </div>
   );
 }
-
-export const FormikFancyInput = FormikHOC(FancyInput);
 
 export default FancyInput;
